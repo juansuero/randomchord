@@ -39,7 +39,7 @@ The application fetches a list of guitar chords from the All Guitar Chords websi
 
 ## Files
 
-- [sql.py](http://_vscodecontentref_/2): The main application script.
+- [app.py](http://_vscodecontentref_/2): The main application script.
 - `requirements.txt`: The list of dependencies.
 
 ## License
