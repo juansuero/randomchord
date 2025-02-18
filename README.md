@@ -23,7 +23,7 @@ The application fetches a list of guitar chords from the All Guitar Chords websi
 
 1. Run the Streamlit application:
     ```bash
-    streamlit run sql.py
+    streamlit run app.py
     ```
 
 2. Open your web browser and navigate to the URL provided by Streamlit (usually `http://localhost:8501`).
