@@ -1,10 +1,10 @@
 # Random Guitar Chord Picker
 
-This is a simple Streamlit application that picks a random guitar chord from the website [All Guitar Chords](https://www.all-guitar-chords.com) and provides a link to view the chord.
+This is a simple Streamlit application that picks a random guitar chord from the website [All Guitar Chords](https://www.all-guitar-chords.com) and displays the chord name, diagram, and a link to view all variations on the website.
 
 ## Description
 
-The application fetches a list of guitar chords from the All Guitar Chords website and randomly selects one. When the user clicks the "Pick a Random Chord" button, a link to the randomly selected chord is displayed.
+The application fetches a list of guitar chords from the All Guitar Chords website and randomly selects one. When the user clicks the "Pick a Random Chord" button, the chord name, diagram, and a link to view all variations are displayed.
 
 ## Installation
 
@@ -23,23 +23,23 @@ The application fetches a list of guitar chords from the All Guitar Chords websi
 
 1. Run the Streamlit application:
     ```bash
-    streamlit run sql.py
+    streamlit run chord_picker.py
     ```
 
 2. Open your web browser and navigate to the URL provided by Streamlit (usually `http://localhost:8501`).
 
-3. Click the "Pick a Random Chord" button to get a random guitar chord link.
+3. Click the "Pick a Random Chord" button to display a random guitar chord with its name, diagram, and link.
 
 ## Requirements
 
 - Python 3.7+
-- [requests](http://_vscodecontentref_/0)
+- `requests`
 - `beautifulsoup4`
-- [streamlit](http://_vscodecontentref_/1)
+- `streamlit`
 
 ## Files
 
-- [sql.py](http://_vscodecontentref_/2): The main application script.
+- `chord_picker.py`: The main application script.
 - `requirements.txt`: The list of dependencies.
 
 ## License
